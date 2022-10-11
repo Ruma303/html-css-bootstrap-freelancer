@@ -36,19 +36,16 @@ header {
 nav {
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav_row {
     height: 100%;
     width: 100%;
+    margin: 0 auto;
 }
 
 .nav_col {
     height: 100%;
-    width: 100%;
 }
 
 nav h2 {
@@ -99,40 +96,35 @@ main {
 }
 
 .sec2 img {
-    width: 50%;
+    max-width: 20rem;
+}
+
+/* SECTION 3 */
+
+.sec3 {
+    background-color: aqua;
+    height: 25rem;
+}
+
+/* SECTION 4 */
+
+.sec4 {
+    background-color: gold;
+    height: 25rem;
+}
+
+/* SECTION 5 */
+
+.sec5 {
+    background-color: rgb(58, 84, 109);;
+    height: 25rem;
 }
 
 /* FOOTER */
 
-/* MOBILE */
-@media screen and (max-width: 524px) {
-    nav .fa-bars {
-        display: block;
-    }
-
-    nav ul {
-        display: none;
-    }
-    
+.footer_container {
+    background-color: rgb(44, 62, 80);
+    height: 25rem;
 }
 
 
-/* TABLET */
-@media screen and (min-width: 525px) {
-    nav .fa-bars {
-        display: none;
-    }
-    
-    nav ul {
-        display: block;
-        display: flex;
-        gap: 1rem;
-    }
-
-}
-
-
-/* DESKTOP */
-@media screen and (min-with: 1120px) {
-    
-}

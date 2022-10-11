@@ -13,14 +13,14 @@
 
 <body>
     <header>
-        <div class="container header_container">
-            <nav>
-                <div class="row nav_row">
+        <div class="container-fluid header_container">
+            <nav class="container-fluid d-flex justify-content-center align-items-center">
+                <div class="row nav_row d-flex align-items-center">
                     <h2 class="col-4 nav_col">Start bootstrap</h2>
                     <div class="col-4 nav_col"></div>
                     <div class="col-4 col-md-auto nav_col">
-                        <a href="#!"><i class="fa-solid fa-bars"></i></a>
-                        <ul>
+                        <a href="#!"><i class="fa-solid fa-bars d-xs-block d-md-none"></i></a>
+                        <ul class="d-none d-md-block d-flex flex-row">
                             <li><a href="#!">portfolio</a></li>
                             <li><a href="#!">about</a></li>
                             <li><a href="#!">contact</a></li>
@@ -34,9 +34,9 @@
     <main>
         <!-- SECTION 1 -->
         <section>
-            <div class="container text-center sec1">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
+            <div class="container-fluid d-flex justifiy-content-center text-center sec1">
+                <div class="row container">
+                    <div class="col">
                         <img src="img/avatar.svg" alt="">
                         <h1>Start bootstrap</h1>
                         <div class="row">
@@ -80,27 +80,27 @@
             </div>
         </section>
         <!-- SECTION 3 -->
-        <section>
-            <div class="container text-center">
+        <section class="container-fluid text-center sec3">
+            <div class="row row-cols-sm-1 row-cols-md-2">
                 
             </div>
         </section>
         <!-- SECTION 4 -->
-        <section>
-            <div class="container text-center">
+        <section class="container-fluid text-center sec4">
+            <div class="">
                 
             </div>
         </section>
         <!-- SECTION 5 -->
-        <section>
-            <div class="container text-center">
+        <section class="container-fluid text-center sec5">
+            <div class="">
                 
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="container text-center">
+    <footer class="container-fluid text-center footer_container">
+        <div class="">
                 
         </div>
     </footer>
