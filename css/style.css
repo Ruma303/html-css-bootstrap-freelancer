@@ -28,8 +28,27 @@ header {
     height: 5rem;
 }
 
+.header_container {
+    height: 100%;
+    width: 100%;
+}
+
 nav {
     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_row {
+    height: 100%;
+    width: 100%;
+}
+
+.nav_col {
+    height: 100%;
+    width: 100%;
 }
 
 nav h2 {
