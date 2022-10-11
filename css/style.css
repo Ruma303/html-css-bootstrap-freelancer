@@ -4,16 +4,22 @@
 }
 
 body {
-    text-transform: uppercase;
     color: white;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
     list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
 }
 
 /* HEADER */
@@ -71,10 +77,13 @@ main {
 
 /* SECTION 1 */
 
+.sec1, .sec2, .sec3, .sec4, .sec5, .footer_container  {
+    height: auto;
+    padding: 3rem 5rem;
+}
+
 .sec1{
     background-color: rgb(26, 188, 156);
-    height: 25rem;
-    width: 100%;
 }
 
 .sec1 img {
@@ -102,29 +111,49 @@ main {
 /* SECTION 3 */
 
 .sec3 {
-    background-color: aqua;
-    height: 25rem;
+    background-color: rgb(26, 188, 156);
+}
+
+.sec3 .download a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: .5rem;
+    width: fit-content;
 }
 
 /* SECTION 4 */
 
-.sec4 {
-    background-color: gold;
-    height: 25rem;
+.sec4 h4,
+.sec4 hr{
+    color: black;
+}
+
+.sec4 .btn {
+    color: white;
+    background-color: rgb(59, 187, 156);
+    padding: .5rem;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 1rem;
 }
 
 /* SECTION 5 */
 
 .sec5 {
     background-color: rgb(58, 84, 109);;
-    height: 25rem;
 }
 
+.sec5 h3 {
+    font-size: 1rem;
+}
+
+#boot {
+    color:rgb(59, 187, 156);
+}
 /* FOOTER */
 
 .footer_container {
     background-color: rgb(44, 62, 80);
-    height: 25rem;
 }
 
 
