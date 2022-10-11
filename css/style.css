@@ -28,31 +28,14 @@ header {
     height: 5rem;
 }
 
-header .container {
-    height: 100%;
-}
-
 nav {
     height: 100%;
-}
-
-nav .row {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
 }
 
 nav h2 {
     font-size: 1.3rem;
     white-space: nowrap;
     font-weight: 600;
-}
-
-nav .row .col-4:last-child {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 nav i {
@@ -78,17 +61,6 @@ main {
     width: 100%;
 }
 
-.sec1 .row .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.sec1 .col {
-    display: flex;
-    gap: 1rem;
-}
-
 .sec1 img {
     width: 30%;
 }
@@ -101,7 +73,9 @@ main {
 }
 
 /* SECTION 2 */
-section .sec2 {
+
+.sec2 h1,
+.sec2 h2{
     color: black;
 }
 
