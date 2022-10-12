@@ -2,24 +2,23 @@
 * {
     box-sizing: border-box;
 }
-
+/* 
 body {
-    color: white;
-}
+} */
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-ul {
-    list-style: none;
 }
 
 h1,
 h2,
 h3 {
     text-transform: uppercase;
+}
+
+.header_container .sec1, .sec2, .sec3, .sec4, .sec5, .footer_container  {
+    height: auto;
+    padding: 3rem 5rem;
 }
 
 /* HEADER */
@@ -34,23 +33,12 @@ header {
     height: 5rem;
 }
 
-.header_container {
-    height: 100%;
-    width: 100%;
-}
-
 nav {
     height: 100%;
     width: 100%;
 }
 
-.nav_row {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.nav_col {
+nav div {
     height: 100%;
 }
 
@@ -69,6 +57,10 @@ nav i {
     padding: 0.5rem 1rem;
 }
 
+nav a {
+    text-transform: uppercase;
+}
+
 /* MAIN */
 
 main {
@@ -77,9 +69,8 @@ main {
 
 /* SECTION 1 */
 
-.sec1, .sec2, .sec3, .sec4, .sec5, .footer_container  {
-    height: auto;
-    padding: 3rem 5rem;
+section div {
+    height: 100%;
 }
 
 .sec1, .sec3{
@@ -90,17 +81,20 @@ main {
     width: 30%;
 }
 
-.sec1 .line {
-    width: 100px;
+.sec1 .line,
+.sec2 .line {
+    width: 300px;
     background-color: white;
     height: 5px;
     flex: 0 0 0;
 }
 
 /* SECTION 2 */
+.sec2 .line {
+    background-color: black;
+}
 
-.sec2 h1,
-.sec2 h2{
+.sec2 .star {
     color: black;
 }
 
