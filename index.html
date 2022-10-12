@@ -25,12 +25,12 @@
             </div>
         </nav>
     </header>
-    <!-- d-flex justify-content-center align-items-center -->
+
     <main>
         <!-- SECTION 1 -->
         <section class="container-fluid sec1 text-white text-center">
             <div class="container-sm container-md container-lg p-2">
-                <div class="row container">
+                <div class="row container mx-auto">
                     <div class="col d-flex justify-content-center align-items-center flex-column">
                         <img src="img/avatar.svg" alt="">
                         <h1>Start bootstrap</h1>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="overflow-hidden">
+                <div class="overflow-hidden py-2">
                     <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-sm-2 g-md-3">
                         <div class="col">
                             <div class="card_img"><img src="img/cabin.png" alt="" class="img-fluid"></div>
@@ -117,7 +117,7 @@
         </section>
         <!-- SECTION 4 -->
         <section class="container-fluid sec4">
-            <div class="sec4_container container-sm container-md container-lg">
+            <!-- <div class="sec4_container container-sm container-md container-lg">
                 <h1 class="text-center">Contact me</h1>
                 <div class="row d-flex justify-content-center align-items-center text-center">
                     <div class="col line"></div>
@@ -135,7 +135,18 @@
                     <input type="text-area" name="" id="">
                     <div class="btn">Send</div>
                 </div>
+            </div> -->
+            <div class="container">
+                <div class="col-10 mx-auto">
+                    <h2 class="text-center">Contact me</h2>
+                    <div class="col-4 star"></div>
+                    <form action="URL" method="post">
+
+                        <button class="btn btn-primary btn-send">Send</button>
+                    </form>
+                </div>
             </div>
+
         </section>
         <!-- SECTION 5 -->
         <section class="container-fluid text-center sec5 text-white">
@@ -164,11 +175,10 @@
     </main>
 
     <footer class="container-fluid text-center footer_container text-white">
-        <div class="row container-sm container-md container-lg">
+        <div class="row container-sm container-md container-lg mx-auto">
             <div class="col">
                 <p>Copyright &#169; Your Website 2019</p>
             </div>
-            
         </div>
     </footer>
 </body>
