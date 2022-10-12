@@ -82,7 +82,7 @@ main {
     padding: 3rem 5rem;
 }
 
-.sec1{
+.sec1, .sec3{
     background-color: rgb(26, 188, 156);
 }
 
@@ -109,10 +109,6 @@ main {
 }
 
 /* SECTION 3 */
-
-.sec3 {
-    background-color: rgb(26, 188, 156);
-}
 
 .sec3 .download a {
     border: 1px solid white;
@@ -150,6 +146,7 @@ main {
 #boot {
     color:rgb(59, 187, 156);
 }
+
 /* FOOTER */
 
 .footer_container {

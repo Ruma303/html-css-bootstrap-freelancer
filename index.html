@@ -12,20 +12,17 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid header_container">
-            <nav class="container-fluid d-flex justify-content-center align-items-center">
-                <div class="row nav_row d-flex align-items-center">
-                    <h2 class="col-4 nav_col">Start bootstrap</h2>
-                    <div class="col-4 nav_col"></div>
-                    <div class="col-4 col-md-auto nav_col">
-                        <a href="#!"><i class="fa-solid fa-bars d-xs-block d-md-none"></i></a>
-                        <ul class="d-none d-md-block d-flex flex-row">
-                            <li><a href="#!">portfolio</a></li>
-                            <li><a href="#!">about</a></li>
-                            <li><a href="#!">contact</a></li>
-                        </ul>
-                    </div>
+    <header class="container-fluid">
+        <div class="header_container container-sm container-md container-lg">
+            <nav class="row d-flex justify-content-center align-items-center">
+                <h2 class="col-6 nav_col">Start bootstrap</h2>
+                <div class="col-6 col-md-auto nav_col justify-content-end">
+                    <a href="#!"><i class="fa-solid fa-bars d-xs-block d-md-none"></i></a>
+                    <ul class="d-none d-md-block d-flex flex-row">
+                        <li><a href="#!">portfolio</a></li>
+                        <li><a href="#!">about</a></li>
+                        <li><a href="#!">contact</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -33,8 +30,8 @@
 
     <main>
         <!-- SECTION 1 -->
-        <section>
-            <div class="container-fluid d-flex justifiy-content-center text-center sec1">
+        <section class="container-fluid sec1">
+            <div class="container-sm container-md container-lg">
                 <div class="row container">
                     <div class="col">
                         <img src="img/avatar.svg" alt="">
@@ -54,8 +51,8 @@
             </div>
         </section>
         <!-- SECTION 2 -->
-        <section>
-            <div class="container text-center sec2">
+        <section class="container-fluid sec2">
+            <div class="container-sm container-md container-lg text-center g-2">
                 <div>
                     <h1>Portfolio</h1>
                     <div class="row">
@@ -69,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-sm-2 g-md-3">
                     <div class="col"><img src="img/cabin.png" alt=""></div>
                     <div class="col"><img src="img/cake.png" alt=""></div>
                     <div class="col"><img src="img/circus.png" alt=""></div>
@@ -80,50 +77,54 @@
             </div>
         </section>
         <!-- SECTION 3 -->
-        <section class="container-fluid text-center sec3">
-            <div class="row">
-                <div class="col">
-                    <h1>about</h1>
-                    <div class="row">
-                        <div class="col line"></div>
-                        <div class="col"><i class="fa-solid fa-star"></i></div>
-                        <div class="col line"></div>
+        <section class="container-fluid sec3">
+            <div class="sec3_container container-sm container-md container-lg">
+                <div class="row">
+                    <div class="col">
+                        <h1>about</h1>
+                        <div class="row">
+                            <div class="col line"></div>
+                            <div class="col"><i class="fa-solid fa-star"></i></div>
+                            <div class="col line"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row row-cols-xs-1 row-cols-md-2 g-3">
-                <div class="col-md-6 col-12">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum magni iusto saepe, corporis earum amet dolor quam nisi reprehenderit quos, quibusdam magnam a odit libero ipsa suscipit obcaecati. Ipsa, minus?
+                <div class="row row-cols-xs-1 row-cols-md-2 g-3">
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum magni iusto saepe, corporis earum amet dolor quam nisi reprehenderit quos, quibusdam magnam a odit libero ipsa suscipit obcaecati. Ipsa, minus?
+                    </div>
+                    <div class="col-md-6 col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, magnam dicta. Cumque mollitia tenetur enim? Excepturi architecto ipsa dolore voluptate autem commodi, ex, porro necessitatibus nobis quisquam consectetur velit repudiandae?</div>
                 </div>
-                <div class="col-md-6 col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, magnam dicta. Cumque mollitia tenetur enim? Excepturi architecto ipsa dolore voluptate autem commodi, ex, porro necessitatibus nobis quisquam consectetur velit repudiandae?</div>
-            </div>
-            <div class="row">
-                <div class="col download">
-                    <a href="#!">
-                    <i class="fa-solid fa-download"></i>
-                    <span>Download</span></div></a>
+                <div class="row">
+                    <div class="col download">
+                        <a href="#!">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Download</span></div></a>
+                </div>
             </div>
         </section>
         <!-- SECTION 4 -->
-        <section class="container-fluid text-center sec4 justify-content-center">
-            <div class="row">
-                <div class="col">
-                    <h1>Contact me</h1>
-                    <div class="row">
-                        <div class="col line"></div>
-                        <div class="col"><i class="fa-solid fa-star"></i></div>
-                        <div class="col line"></div>
-                        <div class="form d-flex flex-column">
-                            <!-- align-items-start andrebbe dentro il div di sopra -->
-                            <h4>Name</h4>
-                            <hr>
-                            <h4>Email Address</h4>
-                            <hr>
-                            <h4>Phone Number</h4>
-                            <hr>
-                            <h4>Message</h4>
-                            <input type="text-area" name="" id="">
-                            <div class="btn">Send</div>
+        <section class="container-fluid sec4">
+            <div class="sec4_container container-sm container-md container-lg">
+                <div class="row">
+                    <div class="col">
+                        <h1>Contact me</h1>
+                        <div class="row">
+                            <div class="col line"></div>
+                            <div class="col"><i class="fa-solid fa-star"></i></div>
+                            <div class="col line"></div>
+                            <div class="form d-flex flex-column">
+                                <!-- align-items-start andrebbe dentro il div di sopra -->
+                                <h4>Name</h4>
+                                <hr>
+                                <h4>Email Address</h4>
+                                <hr>
+                                <h4>Phone Number</h4>
+                                <hr>
+                                <h4>Message</h4>
+                                <input type="text-area" name="" id="">
+                                <div class="btn">Send</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,26 +132,31 @@
         </section>
         <!-- SECTION 5 -->
         <section class="container-fluid text-center sec5">
-            <div class="row flex-column g-3">
-                <div class="col">
-                    <h3>Location</h3>
-                    <p>2251 John Daniel Drive Clark, MO 54243</p>
-                </div>
-                <div class="col">
-                    <h3>Around the web</h3>
-                    <div class="ico"></div>
-                </div>
-                <div class="col">
-                   <h3>About freelancer</h3>
-                   <p>Freelance is a free to use, open source Bootstrap theme create by <span id="boot">Start Bootstrap</span></p>
+            <div class="sec5_container container-sm container-md container-lg">
+                <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-3  flex-column g-3">
+                    <div class="col col-md-4">
+                        <h3>Location</h3>
+                        <p>2251 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col col-md-4">
+                        <h3>Around the web</h3>
+                        <div class="ico"></div>
+                    </div>
+                    <div class="col col-md-4">
+                    <h3>About freelancer</h3>
+                    <p>Freelance is a free to use, open source Bootstrap theme create by <span id="boot">Start Bootstrap</span></p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="container-fluid text-center footer_container">
-        <div class="">
-                
+        <div class="row container-sm container-md container-lg">
+            <div class="col">
+                <p>Copyright C Your Website 2019</p>
+            </div>
+            
         </div>
     </footer>
 </body>
