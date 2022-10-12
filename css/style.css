@@ -81,14 +81,31 @@ section div {
     width: 30%;
 }
 
-/* SECTION 2 */
-.sec2 .line {
-    background-color: black;
+.sec1 .star,
+.sec3 .star {
+    color: white;
 }
 
-.sec2 .star {
+.sec2 .star,
+.sec4 .star {
     color: black;
 }
+
+.sec1 .line,
+.sec3 .line{
+    background-color: white;
+    height: 5px;
+    width: auto;
+}
+
+.sec2 .line,
+.sec4 .line{
+    background-color: black;
+    height: 5px;
+    width: auto;
+}
+
+/* SECTION 2 */
 
 .sec2 .card_img {
     height: auto;
@@ -115,12 +132,6 @@ section div {
 .sec4 h4,
 .sec4 hr{
     color: black;
-}
-
-.sec4 .line {
-    background-color: black;
-    height: 5px;
-    width: 100px;
 }
 
 .sec4 input,

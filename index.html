@@ -34,9 +34,9 @@
                     <div class="col d-flex justify-content-center align-items-center flex-column">
                         <img src="img/avatar.svg" alt="">
                         <h1>Start bootstrap</h1>
-                        <div class="col-4 star">
+                        <div class="col-4 star text-white d-flex align-items-center">
                             <div class="col line"></div>
-                            <div class="col star"><i class="fa-solid fa-star"></i></div>
+                            <div class="col"><i class="fa-solid fa-star"></i></div>
                             <div class="col line"></div>
                         </div>
                         <div class="row">
@@ -53,9 +53,9 @@
             <div class="container-sm container-md container-lg text-center g-2">
                 <div>
                     <h1>Portfolio</h1>
-                    <div class="row">
+                    <div class="col-4 star d-flex align-items-center m-auto">
                         <div class="col line"></div>
-                        <div class="col star"><i class="fa-solid fa-star"></i></div>
+                        <div class="col"><i class="fa-solid fa-star"></i></div>
                         <div class="col line"></div>
                     </div>
                     <div class="row">
@@ -94,9 +94,9 @@
                 <div class="row">
                     <div class="col">
                         <h1>about</h1>
-                        <div class="row d-flex justify-content-center align-items-center line-star">
+                        <div class="col-4 star text-white d-flex align-items-center m-auto">
                             <div class="col line"></div>
-                            <div class="col star"><i class="fa-solid fa-star"></i></div>
+                            <div class="col"><i class="fa-solid fa-star"></i></div>
                             <div class="col line"></div>
                         </div>
                     </div>
@@ -117,50 +117,39 @@
         </section>
         <!-- SECTION 4 -->
         <section class="container-fluid sec4">
-            <!-- <div class="sec4_container container-sm container-md container-lg">
-                <h1 class="text-center">Contact me</h1>
-                <div class="row d-flex justify-content-center align-items-center text-center">
-                    <div class="col line"></div>
-                    <div class="col star"><i class="fa-solid fa-star"></i></div>
-                    <div class="col line"></div>
-                </div>
-                <div class="form d-flex flex-column">
-                    <h4>Name</h4>
-                    <hr>
-                    <h4>Email Address</h4>
-                    <hr>
-                    <h4>Phone Number</h4>
-                    <hr>
-                    <h4>Message</h4>
-                    <input type="text-area" name="" id="">
-                    <div class="btn">Send</div>
-                </div>
-            </div> -->
             <div class="container">
                 <div class="col-10 mx-auto">
                     <h2 class="text-center">Contact me</h2>
-                    <div class="col-4 star"></div>
-                    <form action="URL" method="post">
+                    <div class="col-4 star d-flex align-items-center m-auto">
+                        <div class="col line"></div>
+                        <div class="col text-center"><i class="fa-solid fa-star"></i></div>
+                        <div class="col line"></div>
+                    </div>
+                    <form action="#" method="post" class="needs-validation" novalidate>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Nome e Cognome"></input>
-                          </div>
+                            <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Nome e Cognome" required></input>
+                            <div class="valid-feedback">T'appost!</div>
+                        </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="la tua email" aria-describedby="emailHelp">
-                          </div>
-                          <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="la tua email" aria-describedby="emailHelp" required>
+                            <div class="valid-feedback">T'appost!</div>
+                        </div>
+                        <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" placeholder="La tua password" class="form-control" id="exampleInputPassword1">
-                          </div>
-                          <div class="mb-3">
+                            <input type="password" placeholder="La tua password" class="form-control" id="exampleInputPassword1" required>
+                            <div class="invalid-feedback">Mi prendi in giro?</div>
+                        </div>
+                        <div class="mb-3">
                             <label for="number" class="form-label">Phone Number</label>
-                            <input type="text" class="form-control" id="number" rows="3" placeholder="+39 XXX XXX XXXX"></input>
-                          </div>
-                          <div class="mb-3">
+                            <input type="text" class="form-control" id="number" rows="3" value="+39 " required></input>
+                            <div class="invalid-feedback">Mi prendi in giro?</div>
+                        </div>
+                        <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" placeholder="Buonsalve esimio, che bella giornata..."></textarea>
-                          </div>
+                        </div>
                         <button type="submit" class="btn btn-send">Send</button>
                     </form>
                 </div>
