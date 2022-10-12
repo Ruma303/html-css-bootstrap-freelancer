@@ -81,14 +81,6 @@ section div {
     width: 30%;
 }
 
-.sec1 .line,
-.sec2 .line {
-    width: 300px;
-    background-color: white;
-    height: 5px;
-    flex: 0 0 0;
-}
-
 /* SECTION 2 */
 .sec2 .line {
     background-color: black;
@@ -96,6 +88,13 @@ section div {
 
 .sec2 .star {
     color: black;
+}
+
+.sec2 .card_img {
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
 }
 
 .sec2 img {
@@ -118,6 +117,12 @@ section div {
     color: black;
 }
 
+.sec4 .line {
+    background-color: black;
+    height: 5px;
+    width: 100px;
+}
+
 .sec4 .btn {
     color: white;
     background-color: rgb(59, 187, 156);
@@ -127,6 +132,7 @@ section div {
     margin-top: 1rem;
 }
 
+
 /* SECTION 5 */
 
 .sec5 {
@@ -135,6 +141,14 @@ section div {
 
 .sec5 h3 {
     font-size: 1rem;
+}
+
+.sec5 .ico i{
+    color: white;
+    font-size: 1rem;
+    border: solid 1px white;
+    border-radius: 100% 100% 100%;
+    padding: 1rem;
 }
 
 #boot {
