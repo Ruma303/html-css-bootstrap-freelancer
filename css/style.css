@@ -123,6 +123,14 @@ section div {
     width: 100px;
 }
 
+.sec4 input,
+.sec4 textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
 .sec4 .btn {
     color: white;
     background-color: rgb(59, 187, 156);
@@ -130,8 +138,8 @@ section div {
     border-radius: 5px;
     width: fit-content;
     margin-top: 1rem;
+    border: none;
 }
-
 
 /* SECTION 5 */
 
