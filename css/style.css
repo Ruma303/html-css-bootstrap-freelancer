@@ -147,8 +147,8 @@ section div {
     color: white;
     font-size: 1rem;
     border: solid 1px white;
-    border-radius: 100% 100% 100%;
-    padding: 1rem;
+    border-radius: 100%;
+    padding: .8rem;
 }
 
 #boot {
