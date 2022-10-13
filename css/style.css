@@ -99,6 +99,28 @@ main {
     width: auto;
 }
 
+.bl_card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.bl_card:hover:after {
+    content: '\F64D';
+    font-family: bootstrap-icons;
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    inset:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1ABC9C80;
+    cursor: pointer;
+}
+
+
 /* SECTION 2 */
 
 .sec2 .card_img {
